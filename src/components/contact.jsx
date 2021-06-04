@@ -139,12 +139,12 @@ export const Contact = (props) => {
       </div>
       <div id='footer'>
         <div className='container text-center'>
-          <p>
+          {/*<p>
             &copy; Design by{' '}
             <a href='http://www.templatewire.com' rel='nofollow'>
               TemplateWire
             </a>
-          </p>
+          </p>*/}
         </div>
       </div>
     </div>
