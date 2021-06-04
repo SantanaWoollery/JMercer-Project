@@ -1,0 +1,136 @@
+{
+    "Header": {
+
+        "title": "J Mercer Marketing",
+        "paragraph": "We create content for female entrepreneurs that connects to their audience, nurtures their community and builds brand awareness."
+
+    },
+    "About": {
+        "paragraph": "Hi, I'm Jessica. I began working with chiropractors to create incredible Instagram content when I realized my own chiropractor had incredible knowledge to share but no time to share it on social media. J Mercer Marketing was born as a passion to spread the message of chiro care in a way that feels natural for readers. I value relationships. That means I take an enormous amount of time to get to know my clients so I can create content what resonates with their specific audience. I've built a network of incredible, intelligent, and inspiring chiropractors. Thank you, all. If you need someone on your team and who is as passionate about your success as you are, I'm your person.",
+        "Why": [
+            "We’ll Stalk Your Brand 🔍",
+            "We’re Chosen by Some 💣🍑 Women",
+            "We Focus on YOUR Results",
+            "We Always Keep it Real With You (even when you don’t love it)"
+        ],
+        "Why2": [
+            "We Create Content That Performs",
+            "We Are Relatable (& we value a relationship with you)",
+            "Our Experience Speaks for Itself",
+            "We Value Honesty, Hard Work, and Amazing Women"
+        ]
+    },
+    "Services": [{
+        "icon": "fa fa-diamond",
+        "name": "Comprehensive Package",
+        "text": "This application only, completely hands-off bundle is for the woman who is ready to fully commit to building a cohesive online brand image. From every email sent to every social media post."
+    },
+    {
+        "icon": "fa fa-instagram",
+        "name": "Content Creation",
+        "text": "We create content that engages, educates, and speaks to your ideal audience, allowing your business to grow & create a bigger impact within your community."
+    },
+    {
+        "icon": "fa fa-users",
+        "name": "Lead Generation",
+        "text": "Are you looking to find more clients, build an email list, or secure networking opportunities? Our team identifies and cultivates potential leads & sends them to you."
+    },
+    {
+        "icon": "fa fa-bullhorn",
+        "name": "Community Engagement",
+        "text": "Ready to build your *perfect* online community? We actively seek out your ideal audience and interact with them in ways that make them eager to follow you and stay connected!"
+    },
+    {
+        "icon": "fa fa-envelope-o",
+        "name": "Email Marketing",
+        "text": "An individualized system of emails tailored to your business & your audience. This creates a cohesive look that represents the culture, mission, and values within your business."
+    },
+    {
+        "icon": "fa fa-pencil-square-o",
+        "name": "Blog Creation",
+        "text": "Does your business really need a blog? The actual question is do you want to connect with & educate your relevant audience, build brand authority and boost genuine leads to your website? Let us help."
+    }
+
+
+],
+    "Testimonials": [{
+            "img": "img/testimonials/01.jpg",
+            "text": "You helped me present my personal vision and purpose in a professional way to create engagement, grow my business and create a social media presence.",
+            "name": "Dr. Cristina Padilla"
+        },
+        {
+            "img": "img/testimonials/02.jpg",
+            "text": "Jessica takes away all the stress and pressure by crafting captions and graphics for social media posts that are engaging and relevant to my business.",
+            "name": "Maria Inoa"
+        },
+        {
+            "img": "img/testimonials/03.jpg",
+            "text": "Creates content that engages, educates, and speaks to our ideal audience. Our marketing now looks cohesive, represents the culture, mission, and values within our office.",
+            "name": "Dr. Savy Ford"
+        },
+        {
+            "img": "img/testimonials/04.jpg",
+            "text": "Jessica helped me focus my social media marketing, and  plan a social media campaign that focuses on my ideal patient and the best ways to reach them.",
+            "name": "Dr. Sherri Mosley"
+        },
+        {
+            "img": "img/testimonials/05.jpg",
+            "text": "Jessica is wonderful! She's got a system, and it works. She's also fun and easy to work with!",
+            "name": "Dr. Haley Day"
+        },
+        {
+            "img": "img/testimonials/06.jpg",
+            "text": "Dedicated, thorough and organized are words that instantly come to mind when I think of her work. 1000% recommend her process to anyone for a boost in your marketing.",
+            "name": "Dr. Brad Johns"
+        }
+    ],
+    "Team": [{
+            "img": "img/team/01.jpg",
+            "name": "Jessica Mercer",
+            "job": "HBIC"
+        },
+        {
+            "img": "img/team/02.jpg",
+            "name": "Erika",
+            "job": "Analyst"
+        }, {
+            "img": "img/team/03.jpg",
+            "name": "Lanna",
+            "job": "Content Creator"
+        },
+        {
+            "img": "img/team/04.jpg",
+            "name": "Chelsee",
+            "job": "Strategist & Content Creator"
+        }
+    ],
+    "Contact": {
+        "address": "4321 California St, San Francisco, CA 12345 ",
+        "phone": "+1 123 456 1234",
+        "email": "info@company.com",
+        "facebook": "fb.com",
+        "twitter": "twitter.com",
+        "youtube": "youtube.com"
+    },
+    "Features": [{
+            "icon": "fa fa-comments-o",
+            "title": "Lorem ipsum",
+            "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+        },
+        {
+            "icon": "fa fa-bullhorn",
+            "title": "Lorem ipsum",
+            "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+        },
+        {
+            "icon": "fa fa-group",
+            "title": "Lorem ipsum",
+            "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+        },
+        {
+            "icon": "fa fa-magic",
+            "title": "Lorem ipsum",
+            "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+        }
+    ]
+}
