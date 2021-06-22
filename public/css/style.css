@@ -167,7 +167,7 @@ hr {
 	border: 0;
 }
 .btn-custom:hover, .btn-custom:focus, .btn-custom.focus, .btn-custom:active, .btn-custom.active {
-	color: #fff;
+	color: #2D4856;
 	background-image: none;
 	background-color: #C5D3D9;
 }
