@@ -1,30 +1,106 @@
+import { Card, Button, CardGroup } from 'react-bootstrap'
+
+
+
 export const Blog = (props) => {
     return (
-        <div id="blog" className="text-center">
-            <div className="container">
-                <div className="section-title">
+        <div id='blog' className='text-center'>
+            <div className='container'>
+                <div className='section-title'>
                     <h2>Read More</h2>
                     <p>
                         This is filler text. This is filler text. This is filler text. This is filler text.
                     </p>
                 </div>
-
                 <div className='row'>
-
-                    {props.data
-                        ? props.data.map((d, i) => (
-                            <div key={`${d.name}-${i}`} className='col-md-4'>
-                                {' '}
-                                <i className={d.icon}></i>
-                                <div className='blog-desc'>
-                                    <h3>{d.name}</h3>
-                                    <p>{d.text}</p>
-                                </div>
+                    <CardGroup>
+                        <Card>
+                        <div className='col-xs-6 col-md-3 col-lg-4'>
+                            <Card.Img variant="top" src="holder.js/100px160" />
+                            <Card.Body>
+                                <Card.Title>Card title</Card.Title>
+                                <Card.Text>
+                                    This is a wider card with supporting text below as a natural lead-in to
+                                    additional content. This content is a little bit longer.
+                                </Card.Text>
+                            </Card.Body>
+                            <Button variant='primary'>Go somewhere</Button>
                             </div>
-                        ))
-                        : 'loading'}
+                        </Card>
+                        <Card>
+                        <div className='col-xs-6 col-md-3 col-lg-4'>
+                            <Card.Img variant="top" src="holder.js/100px160" />
+                            <Card.Body>
+                                <Card.Title>Card title</Card.Title>
+                                <Card.Text>
+                                    This card has supporting text below as a natural lead-in to additional
+                                    content.{' '}
+                                </Card.Text>
+                            </Card.Body>
+                            <Button variant='primary'>Go somewhere</Button>
+                            </div>    
+                        </Card>
+                        <Card>
+                        <div className='col-xs-6 col-md-3 col-lg-4'>
+                            <Card.Img variant="top" src="holder.js/100px160" />
+                            <Card.Body>
+                                <Card.Title>Card title</Card.Title>
+                                <Card.Text>
+                                    This is a wider card with supporting text below as a natural lead-in to
+                                    additional content. This card has even longer content than the first to
+                                    show that equal height action.
+                                </Card.Text>
+                            </Card.Body>
+                            <Button variant='primary'>Go somewhere</Button>
+                            </div>    
+                        </Card>
+                    </CardGroup>
+
+                    {/*<div className='col-xs-6 col-md-3 col-lg-4'>
+
+                    <Card style={{ width: '18rem' }}>
+                        <Card.Img variant='top' src='holder.js/100px180' />
+                        <Card.Body>
+                            <Card.Title>Card Title</Card.Title>
+                            <Card.Text>
+                                Some quick example text to build on the card title and make up the bulk of
+                                the card's content.
+                            </Card.Text>
+                            <Button variant='primary'>Go somewhere</Button>
+                        </Card.Body>
+                    </Card>
+                    </div>
+                    <div className='col-xs-6 col-md-3 col-lg-4'>
+
+                    <Card style={{ width: '18rem' }}>
+                        <Card.Img variant='top' src='holder.js/100px180' />
+                        <Card.Body>
+                            <Card.Title>Card Title</Card.Title>
+                            <Card.Text>
+                                Some quick example text to build on the card title and make up the bulk of
+                                the card's content.
+                            </Card.Text>
+                            <Button variant='primary'>Go somewhere</Button>
+                        </Card.Body>
+                    </Card>
+                    </div>
+                    <div className='col-xs-6 col-md-3 col-lg-4'>
+
+                    <Card style={{ width: '18rem' }}>
+                        <Card.Img variant='top' src='holder.js/100px180' />
+                        <Card.Body>
+                            <Card.Title>Card Title</Card.Title>
+                            <Card.Text>
+                                Some quick example text to build on the card title and make up the bulk of
+                                the card's content.
+                            </Card.Text>
+                            <Button variant='primary'>Go somewhere</Button>
+                        </Card.Body>
+                    </Card>
+                </div>*/}
                 </div>
             </div>
+
         </div>
     );
 };
