@@ -11,18 +11,14 @@ export const Header = (props) => {
                   <span></span>
                 </h1>
                 <p>{props.data ? props.data.paragraph : 'Loading'}</p>
+                
                 <a
-                  href='#services'
-                  className='btn btn-custom btn-lg page-scroll'
-                >
-                  Learn More
-                </a>{' '}
-                <a
-                  href='https://marketingcompany21611.hbportal.co/schedule/608562c28ba27d002ac88db3'
+                  href='https://marketingcompany21611.hbportal.co/schedule/608562c28ba27d002ac88db3' target='_blank' rel='noreferrer'
                   className='btn btn-custom btn-lg page-scroll'
                 >
                   Book A Consultation
                 </a>{' '}
+                
               </div>
             </div>
           </div>

@@ -112,25 +112,48 @@
         "twitter": "twitter.com",
         "youtube": "youtube.com"
     },
+    "Blog": [{
+        "icon": "fa fa-diamond",
+        "name": "Comprehensive Package",
+        "text": "This application only, completely hands-off bundle is for the woman who is ready to fully commit to building a cohesive online brand image. From every email sent to every social media post."
+    },
+    {
+        "icon": "fa fa-instagram",
+        "name": "Content Creation",
+        "text": "We create content that engages, educates, and speaks to your ideal audience, allowing your business to grow & create a bigger impact within your community."
+    },
+    {
+        "icon": "fa fa-users",
+        "name": "Lead Generation",
+        "text": "Are you looking to find more clients, build an email list, or secure networking opportunities? Our team identifies and cultivates potential leads & sends them to you."
+    },
+    {
+        "icon": "fa fa-bullhorn",
+        "name": "Community Engagement",
+        "text": "Ready to build your *perfect* online community? We actively seek out your ideal audience and interact with them in ways that make them eager to follow you and stay connected!"
+    },
+    {
+        "icon": "fa fa-envelope-o",
+        "name": "Email Marketing",
+        "text": "An individualized system of emails tailored to your business & your audience. This creates a cohesive look that represents the culture, mission, and values within your business."
+    },
+    {
+        "icon": "fa fa-pencil-square-o",
+        "name": "Blog Creation",
+        "text": "Does your business really need a blog? The actual question is do you want to connect with & educate your relevant audience, build brand authority and boost genuine leads to your website? Let us help."
+    }
+
+
+],
     "Features": [{
-            "icon": "fa fa-comments-o",
+            "icon": "fa fa-diamond",
             "title": "Conquer Your Content",
-            "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+            "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam. Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam.Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam.Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
         },
         {
-            "icon": "fa fa-bullhorn",
+            "icon": "fa fa-users",
             "title": "REELS 101 | The Basics",
-            "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
-        },
-        {
-            "icon": "fa fa-group",
-            "title": "Lorem ipsum",
-            "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
-        },
-        {
-            "icon": "fa fa-magic",
-            "title": "Lorem ipsum",
-            "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+            "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam. Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam.Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam.Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
         }
     ]
 }

@@ -7,8 +7,14 @@ export const Services = (props) => {
           <p>
           <em>"Jessica takes away all the stress and pressure by crafting captions and graphics for social media posts that are engaging and relevant to my business." - Maria Inoa</em>
           </p>
+          <a
+                  href='https://jmercermarketing.thinkific.com/courses/conquer-your-content' target='_blank' rel='noreferrer'
+                  className='btn btn-custom btn-lg page-scroll'
+                >Learn More</a>
         </div>
-        <div className='row'>
+        
+        {/*<div className='row'>
+        
           {props.data
             ? props.data.map((d, i) => (
                 <div key={`${d.name}-${i}`} className='col-md-4'>
@@ -20,8 +26,8 @@ export const Services = (props) => {
                   </div>
                 </div>
               ))
-            : 'loading'}
-        </div>
+            : 'loading'} 
+        </div>*/}
       </div>
     </div>
   )

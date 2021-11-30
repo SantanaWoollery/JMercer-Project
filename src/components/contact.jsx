@@ -20,7 +20,7 @@ export const Contact = (props) => {
     console.log(name, email, message)
     emailjs
       .sendForm(
-        'YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', e.target, 'YOUR_USER_ID'
+        'gmail', 'template_r5qtbka', e.target, 'user_gKBNYayGAP7HefxYyjZBy'
       )
       .then(
         (result) => {
@@ -122,12 +122,12 @@ export const Contact = (props) => {
               <div className='social'>
                 <ul>                
                   <li>
-                    <a href='https://www.instagram.com/jmercermarketing/'>
+                    <a href='https://www.instagram.com/jmercermarketing/' target='_blank' rel='noreferrer'>
                       <i className='fa fa-instagram'></i>
                     </a>
                   </li>
                   <li>
-                    <a href='https://www.facebook.com/jmercermarketing'>
+                    <a href='https://www.facebook.com/jmercermarketing' target='_blank' rel='noreferrer'>
                       <i className='fa fa-facebook'></i>
                     </a>
                   </li>                   
