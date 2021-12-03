@@ -15,44 +15,53 @@ export const Blog = (props) => {
                 <div className='row'>
                     <CardGroup>
                         <Card>
-                        <div className='col-xs-6 col-md-3 col-lg-4'>
-                            <Card.Img variant="top" src="holder.js/100px160" />
-                            <Card.Body>
-                                <Card.Title>Card title</Card.Title>
-                                <Card.Text>
-                                    This is a wider card with supporting text below as a natural lead-in to
-                                    additional content. This content is a little bit longer.
-                                </Card.Text>
-                            </Card.Body>
-                            <Button variant='primary'>Go somewhere</Button>
+                            <div className='col-sm-6 col-md-4 col-lg-4'>
+                                <Card.Img variant="top" src="holder.js/100px160" />
+                                <Card.Body>
+                                    <Card.Title>Card title</Card.Title>
+                                    <Card.Text>
+                                        This is a wider card with supporting text below as a natural lead-in to
+                                        additional content. This content is a little bit longer.
+                                    </Card.Text>
+                                </Card.Body>
+                                <a
+                                    href='https://www.instagram.com/tv/CKeWMDBBHbk/' target='_blank' rel='noreferrer'
+                                    className='btn btn-custom btn-lg page-scroll'
+                                >Learn More</a>
                             </div>
                         </Card>
                         <Card>
-                        <div className='col-xs-6 col-md-3 col-lg-4'>
-                            <Card.Img variant="top" src="holder.js/100px160" />
-                            <Card.Body>
-                                <Card.Title>Card title</Card.Title>
-                                <Card.Text>
-                                    This card has supporting text below as a natural lead-in to additional
-                                    content.{' '}
-                                </Card.Text>
-                            </Card.Body>
-                            <Button variant='primary'>Go somewhere</Button>
-                            </div>    
+                            <div className='col-sm-6 col-md-4 col-lg-4'>
+                                <Card.Img variant="top" src="holder.js/100px160" />
+                                <Card.Body>
+                                    <Card.Title>Card title</Card.Title>
+                                    <Card.Text>
+                                        This card has supporting text below as a natural lead-in to additional
+                                        content.{' '}
+                                    </Card.Text>
+                                </Card.Body>
+                                <a
+                                    href='https://www.instagram.com/tv/CL6tEfxK2pj/' target='_blank' rel='noreferrer'
+                                    className='btn btn-custom btn-lg page-scroll'
+                                >Learn More</a>
+                            </div>
                         </Card>
                         <Card>
-                        <div className='col-xs-6 col-md-3 col-lg-4'>
-                            <Card.Img variant="top" src="holder.js/100px160" />
-                            <Card.Body>
-                                <Card.Title>Card title</Card.Title>
-                                <Card.Text>
-                                    This is a wider card with supporting text below as a natural lead-in to
-                                    additional content. This card has even longer content than the first to
-                                    show that equal height action.
-                                </Card.Text>
-                            </Card.Body>
-                            <Button variant='primary'>Go somewhere</Button>
-                            </div>    
+                            <div className='col-sm-6 col-md-4 col-lg-4'>
+                                <Card.Img variant="top" src="holder.js/100px160" />
+                                <Card.Body>
+                                    <Card.Title>Card title</Card.Title>
+                                    <Card.Text>
+                                        This is a wider card with supporting text below as a natural lead-in to
+                                        additional content. This card has even longer content than the first to
+                                        show that equal height action.
+                                    </Card.Text>
+                                </Card.Body>
+                                <a
+                                    href='https://www.instagram.com/p/CWdeNx3Af6j/' target='_blank' rel='noreferrer'
+                                    className='btn btn-custom btn-lg page-scroll'
+                                >Learn More</a>
+                            </div>
                         </Card>
                     </CardGroup>
 

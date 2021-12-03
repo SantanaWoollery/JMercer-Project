@@ -130,7 +130,12 @@ export const Contact = (props) => {
                     <a href='https://www.facebook.com/jmercermarketing' target='_blank' rel='noreferrer'>
                       <i className='fa fa-facebook'></i>
                     </a>
-                  </li>                   
+                  </li>
+                  <li>
+                    <a href='https://www.linkedin.com/in/jessica-mercer-418874218/' target='_blank' rel='noreferrer'>
+                      <i className='fa fa-linkedin'></i>
+                    </a>
+                  </li>                    
                 </ul>
               </div>
             </div>
