@@ -7,6 +7,10 @@ export const Services = (props) => {
           <p>
           <em>"Jessica takes away all the stress and pressure by crafting captions and graphics for social media posts that are engaging and relevant to my business." - Maria Inoa</em>
           </p>
+          <div classname='row'>
+          <img src='img/services.png' className='img-responsive' alt='' />{' '}
+          </div>
+          <br />
           <a
                   href='https://jmercermarketing.thinkific.com/courses/conquer-your-content' target='_blank' rel='noreferrer'
                   className='btn btn-custom btn-lg page-scroll'

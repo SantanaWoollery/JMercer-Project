@@ -1,5 +1,5 @@
 body, html {
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Comfortaa', cursive;
 	text-rendering: optimizeLegibility !important;
 	-webkit-font-smoothing: antialiased !important;
 	color: #777;
@@ -18,6 +18,7 @@ h2 {
 	color: #333;
 }
 h3 {
+	
 	font-size: 20px;
 	font-weight: 600;
 	color: #333;
@@ -34,6 +35,8 @@ h5 {
 }
 p {
 	font-size: 15px;
+	font-family: 'Comfortaa', cursive;
+
 }
 p.intro {
 	margin: 12px 0 0;
@@ -69,9 +72,10 @@ hr {
 #menu {
 	padding: 15px;
 	transition: all 0.8s;
+	text-transform: uppercase;
 }
 #menu.navbar-default {
-	background-color: #fff;
+	background-color: #F2EFEB;
 	border-color: rgba(231, 231, 231, 0);
 	box-shadow: 0 0 10px rgba(0,0,0,0.15)
 }
@@ -83,8 +87,8 @@ hr {
 	text-transform: uppercase;
 }
 #menu.navbar-default .navbar-nav > li > a {
-	font-family: 'Lato', sans-serif;
-	text-transform: uppercase;
+	font-family: 'Comfortaa', cursive;
+	
 	color: #555;
 	font-size: 15px;
 	font-weight: 400;
@@ -153,7 +157,7 @@ hr {
 	font-size: 18px;
 }
 .btn-custom {
-	font-family: 'Raleway', sans-serif;
+	font-family: 'Comfortaa', cursive;
 	text-transform: uppercase;
 	color: #fff;
 	background-color: #C5D3D9;
@@ -218,6 +222,12 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 	margin: 0 auto;
 	margin-bottom: 60px;
 }
+#header img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+}
 header .intro-text {
 	padding-top: 350px;
 	padding-bottom: 200px;
@@ -226,7 +236,7 @@ header .intro-text {
 /* Features Section */
 #features {
 	padding: 100px 0;
-	background: #f6f6f6;
+	background: url(../img/bg2.jpg) center center no-repeat;
 }
 #features i.fa {
 	font-size: 38px;
@@ -243,6 +253,7 @@ header .intro-text {
 /* About Section */
 #about {
 	padding: 100px 0;
+	background: #F2EFEB;
 }
 #about h3 {
 	font-size: 22px;
@@ -263,6 +274,7 @@ header .intro-text {
 	left: 0;
 }
 #about .about-text li {
+	font-family: 'Comfortaa', cursive;
 	margin-bottom: 6px;
 	margin-left: 6px;
 	list-style: none;
@@ -279,7 +291,6 @@ header .intro-text {
 #about img {
 	width: 520px;
 	margin-top: 10px;
-	background: #fff;
 	border-right: 0;
 	box-shadow: 0 0 50px rgba(0,0,0,0.06);
 }
@@ -292,7 +303,7 @@ header .intro-text {
 	display: table;
 	width: 100%;
 	padding: 100px 0 60px;
-	background: url(../img/intro-bg.jpg) center center no-repeat;
+	background: url(../img/bg5.jpg) center center no-repeat;
 	color: #413f6c;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
@@ -340,6 +351,7 @@ header .intro-text {
 /* Portfolio Section */
 #portfolio {
 	padding: 100px 0;
+	background: #F2EFEB;
 }
 .portfolio-item {
 	margin: 1px -15px 0 -14px;
@@ -385,7 +397,7 @@ header .intro-text {
 /* Testimonials Section */
 #testimonials {
 	padding: 100px 0;
-	background: #C5D3D9;
+	background: url(../img/bg1.jpg) center center no-repeat;
 }
 #testimonials i {
 	color: #e6e6e6;
@@ -423,6 +435,7 @@ header .intro-text {
 }
 /* Team Section */
 #team {
+	background: #F2EFEB;
 	padding: 100px 0;
 }
 #team h4 {
@@ -445,7 +458,7 @@ header .intro-text {
 	display: table;
 	width: 100%;
 	padding: 100px 0 60px;
-	background: url(../img/intro-bg.jpg) center center no-repeat;
+	background: #F2EFEB;
 	color: #413f6c;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
@@ -538,7 +551,7 @@ header .intro-text {
 /* Contact Section */
 #contact {
 	padding: 100px 0 60px 0;
-	background: linear-gradient(to right, #C5D3D9 0%, #C5D3D9 100%);
+	background: url(../img/bg6.jpg) center center no-repeat;
 	color: rgba(255,255,255,.75);
 }
 #contact .section-title {
@@ -588,7 +601,7 @@ header .intro-text {
 label {
 	font-size: 12px;
 	font-weight: 400;
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Comfortaa', cursive;
 	float: left;
 }
 #contact .form-control {
